@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "TMF8801Breakout"
-Date "2020-11-27"
+Title "TMF882xBreakout"
+Date "2022-01-04"
 Rev "0.1"
 Comp "genrationmake"
 Comment1 ""
@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L IC_sensor:TMF8801 U2
-U 1 1 5FB709E7
-P 5950 2250
-F 0 "U2" H 5950 2725 50  0000 C CNN
-F 1 "TMF8801" H 5950 2634 50  0000 C CNN
-F 2 "IC_sensor:TMF8801" H 5950 2250 50  0001 C CNN
-F 3 "" H 5950 2250 50  0001 C CNN
-	1    5950 2250
-	1    0    0    -1  
-$EndComp
 $Comp
 L power-supply:GND #PWR021
 U 1 1 5FB710A2
@@ -962,4 +951,15 @@ Wire Wire Line
 	4800 2400 5600 2400
 Wire Wire Line
 	4800 2500 5600 2500
+$Comp
+L IC_sensor:TMF882x U2
+U 1 1 61D45030
+P 5950 2250
+F 0 "U2" H 5950 2725 50  0000 C CNN
+F 1 "TMF882x" H 5950 2634 50  0000 C CNN
+F 2 "IC_sensor:TMF882x" H 5950 2250 50  0001 C CNN
+F 3 "" H 5950 2250 50  0001 C CNN
+	1    5950 2250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

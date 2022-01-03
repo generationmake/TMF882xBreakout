@@ -1,12 +1,12 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# IC_sensor_TMF8801
+# IC_sensor_TMF882x
 #
-DEF IC_sensor_TMF8801 U 0 40 Y Y 1 F N
+DEF IC_sensor_TMF882x U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
-F1 "IC_sensor_TMF8801" 0 -350 50 H V C CNN
-F2 "IC_sensor:TMF8801" 0 0 50 H I C CNN
+F1 "IC_sensor_TMF882x" 0 -350 50 H V C CNN
+F2 "IC_sensor:TMF882x" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 S -250 300 250 -300 0 1 0 N
